@@ -95,3 +95,25 @@ ul{
     border: 1px solid #f8f9fa;
     border-radius: 10%;
 }
+
+/*footer*/
+.footer ul{
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.bottomleft, .bottomright{
+    display: flex;
+}
+
+.bottomleft li{
+    margin-left: 20px;
+}
+
+.bottomright li{
+    margin-right: 20px;
+}
