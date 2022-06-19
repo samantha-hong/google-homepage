@@ -1,0 +1,34 @@
+*{
+    font-family: 'Arimo', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a, a::after{
+    text-decoration: none;
+    color: black;
+}
+
+/*nav bar*/
+
+ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+    font-size: 0.9rem;
+}
+
+.topleft, .topright{
+    display: flex;
+}
+
+.topleft li{
+    margin-left: 15px;
+}
+
+.topright li{
+    margin-right: 15px;
+}
+
