@@ -16,7 +16,7 @@ ul{
     list-style: none;
     display: flex;
     justify-content: space-between;
-    margin-top: 15px;
+    margin-top: 20px;
     font-size: 0.9rem;
 }
 
@@ -25,10 +25,37 @@ ul{
 }
 
 .topleft li{
-    margin-left: 15px;
+    margin-left: 20px;
 }
 
 .topright li{
-    margin-right: 15px;
+    margin-right: 20px;
 }
 
+/*Google header section*/
+.logo{
+    display: flex;
+    justify-content: center;
+    margin-top: 20vh;
+}
+
+.logo h1{
+    font-family: 'Roboto', 'sans-serif';
+    font-size: 5rem;
+}
+
+.logo .g{
+    color: #4285f4;
+}
+
+.logo .o1, .logo .e{
+    color: #ea4335;
+}
+
+.logo .o2{
+    color: #fbbc05;
+}
+
+.logo .l{
+    color: #34a853;
+}
