@@ -40,7 +40,7 @@ ul{
 }
 
 .logo h1{
-    font-family: 'Roboto', 'sans-serif';
+    font-family: 'Poppins', 'sans-serif';
     font-size: 5rem;
 }
 
@@ -58,4 +58,18 @@ ul{
 
 .logo .l{
     color: #34a853;
+}
+
+/*search bar*/
+.searchbox {
+    margin-top: 3vh;
+    display: flex;
+    justify-content: center;
+    height: 40px;
+}
+
+.textbox{
+    width: 25vw;
+    border-radius: 50px;
+    border: 1px solid #dfe1e5;
 }
