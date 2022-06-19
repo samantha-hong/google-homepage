@@ -73,3 +73,25 @@ ul{
     border-radius: 50px;
     border: 1px solid #dfe1e5;
 }
+
+/*search buttons*/
+.buttons{
+    display: flex;
+    justify-content: center;
+    margin-top: 3vh;
+}
+
+.buttons h2{
+    font-size: 0.9rem;
+}
+
+.buttons .googlesearch{
+    margin-right: 20px;
+}
+
+.googlesearch, .lucky{
+    padding: 10px;
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 10%;
+}
